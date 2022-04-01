@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Basic Calculator</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="container">
+        <div id="display">
+            <span id="display-text"></span>
+        </div>
+
+        <div id="container-2">
+            <button type="button" id="clear">Clear</button>
+            <button type="button" id="delete">Del</button>
+        </div>
+
+        <div id="container-3">
+        <button class="row-member number" value="7" type="button">7</button>
+        <button class="row-member number" value ="8" type="button">8</button>
+        <button class="row-member number" value="9" type="button">9</button>
+        <button class="row-member operation" type="button">&#247;</button>
+
+        <button class="row-member number" value="4" type="button">4</button>
+        <button class="row-member number" value="5" type="button">5</button>
+        <button class="row-member number" value="6" type="button">6</button>
+        <button class="row-member operation" type="button">&#215;</button>
+
+        <button class="row-member number" value="1" type="button">1</button>
+        <button class="row-member number" value="2" type="button">2</button>
+        <button class="row-member number" value="3" type="button">3</button>
+        <button class="row-member operation" type="button">-</button>
+
+        <button class="row-member number" value="0" type="button">0</button>
+        <button class="row-member operation" type="button">%</button>
+        <button class="row-member" type="button" id="equal">=</button>
+        <button class="row-member operation" type="button">+</button>
+        </div>
+    </div>
     
 </body>
 </html>
